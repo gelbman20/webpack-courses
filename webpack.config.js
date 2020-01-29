@@ -20,7 +20,7 @@ module.exports = {
     new CleanWebpackPlugin()
   ],
   module: {
-    rules: [
+    rules: [ 
       {
         test: /\.css$/,
         use: ['style-loader','css-loader']
